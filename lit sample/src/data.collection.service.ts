@@ -480,7 +480,6 @@ export class DataCollectionService extends LitElement {
    */
   private getWebComponentDomain(env: string) {
     console.log(' getWebComponentDomain');
-x
     if (env === 'dev' || env === 'qa') {
         console.log(' getWebComponentDomain. env === dev || env === qa');
       return 'https://qa.cdn.aa.com/dcf';
